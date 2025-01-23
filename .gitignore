@@ -38,16 +38,6 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
-/src/main/generated/.cache/
-/.gitattributes
-/.gitignore
-/build.gradle
-/gradle.properties
-/gradlew
-/gradlew.bat
-/settings.gradle
-/gradle/
-/gradle/wrapper/
 /gradle/wrapper/gradle-wrapper.jar
 /gradle/wrapper/gradle-wrapper.properties
 /src/main/generated/.cache/

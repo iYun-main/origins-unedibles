@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 public class OriginItems {
 
     public static final Item EDIBLE_COAL = registerItem("edible_coal", new Item(new FabricItemSettings()));
+    public static final Item EDIBLE_CHARCOAL = registerItem("edible_charcoal", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(OriginsUnedibles.MOD_ID, name), item);
