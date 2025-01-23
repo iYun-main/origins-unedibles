@@ -2,6 +2,7 @@ package net.iyun.originsunedibles;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.iyun.originsunedibles.datagen.ModelProvider;
 import net.iyun.originsunedibles.item.OriginItemGroup;
 import net.iyun.originsunedibles.item.OriginItems;
 import org.slf4j.Logger;
@@ -13,6 +14,7 @@ public class OriginsUnedibles implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		OriginItemGroup.registerItemGroups();
 		OriginItemGroup.registerItemGroups();
 		OriginItems.registerModItems();
 
