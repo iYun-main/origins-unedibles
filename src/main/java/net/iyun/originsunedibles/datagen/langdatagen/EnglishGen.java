@@ -11,6 +11,15 @@ public class EnglishGen extends FabricLanguageProvider {
 
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
-        translationBuilder.add(OriginItems.EDIBLE_COAL,"Coal");
+        translationBuilder.add(OriginItems.EDIBLE_COAL,"Edible Coal");
+        translationBuilder.add(OriginItems.EDIBLE_CHARCOAL,"Edible Charcoal");
+        translationBuilder.add(OriginItems.EDIBLE_REDSTONE,"Edible Redstone");
+        translationBuilder.add(OriginItems.EDIBLE_RAWIRON,"Edible Raw Iron");
+        translationBuilder.add(OriginItems.EDIBLE_RAWGOLD,"Edible Raw Gold");
+        translationBuilder.add(OriginItems.EDIBLE_RAWCOPPER,"Edible Raw Copper");
+        translationBuilder.add(OriginItems.EDIBLE_LAPIS_LAZULI,"Edible Lapis Lazuli");
+        translationBuilder.add(OriginItems.EDIBLE_DIAMOND,"Edible Diamond");
+        translationBuilder.add(OriginItems.EDIBLE_EMERALD,"Edible Emerald");
+        translationBuilder.add(OriginItems.EDIBLE_LEATHER,"Edible Leather");
     }
 }

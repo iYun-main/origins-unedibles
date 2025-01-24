@@ -14,7 +14,7 @@ public class OriginsUnedibles implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		OriginItemGroup.registerItemGroups();
+
 		OriginItemGroup.registerItemGroups();
 		OriginItems.registerModItems();
 

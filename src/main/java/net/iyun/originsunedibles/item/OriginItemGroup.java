@@ -15,6 +15,34 @@ public class OriginItemGroup {
     public static final ItemGroup AAOrigin = Registry.register(Registries.ITEM_GROUP, new Identifier(OriginsUnedibles.MOD_ID,"aaorigin"),
             FabricItemGroup.builder().displayName(Text.literal("Origin Edible Unedibles")).icon(() -> new ItemStack(Items.WHEAT_SEEDS)).entries((displayContext, entries) -> {
                 entries.add(OriginItems.EDIBLE_COAL);
+                entries.add(OriginItems.EDIBLE_CHARCOAL);
+                entries.add(OriginItems.EDIBLE_RAWCOPPER);
+                entries.add(OriginItems.EDIBLE_RAWGOLD);
+                entries.add(OriginItems.EDIBLE_RAWIRON);
+                entries.add(OriginItems.EDIBLE_LAPIS_LAZULI);
+                entries.add(OriginItems.EDIBLE_EMERALD);
+                entries.add(OriginItems.EDIBLE_DIAMOND);
+                entries.add(OriginItems.EDIBLE_REDSTONE);
+                entries.add(OriginItems.EDIBLE_AMETHYST_SHARD);
+                entries.add(OriginItems.EDIBLE_BOWL);
+                entries.add(OriginItems.EDIBLE_COPPER_INGOT);
+                entries.add(OriginItems.EDIBLE_GOLD_INGOT);
+                entries.add(OriginItems.EDIBLE_IRON_INGOT);
+                entries.add(OriginItems.EDIBLE_GOLD_NUG);
+                entries.add(OriginItems.EDIBLE_IRON_NUG);
+                entries.add(OriginItems.EDIBLE_NETH_SCRAP);
+                entries.add(OriginItems.EDIBLE_NETHERITE_INGOT);
+                entries.add(OriginItems.EDIBLE_QUARTZ);
+                entries.add(OriginItems.EDIBLE_BONE);
+                entries.add(OriginItems.EDIBLE_BONEMEAL);
+                entries.add(OriginItems.EDIBLE_EGG);
+                entries.add(OriginItems.EDIBLE_FEATHER);
+                entries.add(OriginItems.EDIBLE_FLINT);
+                entries.add(OriginItems.EDIBLE_SNOWBALL);
+                entries.add(OriginItems.EDIBLE_STICK);
+                entries.add(OriginItems.EDIBLE_STRING);
+                entries.add(OriginItems.EDIBLE_WHEAT);
+                entries.add(OriginItems.EDIBLE_WHEAT_SEEDS);
             }).build());
 
     public static void registerItemGroups() {

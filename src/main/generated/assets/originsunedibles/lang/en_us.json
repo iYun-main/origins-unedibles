@@ -1,3 +1,12 @@
 {
-  "item.originsunedibles.edible_coal": "Coal"
+  "item.originsunedibles.edible_charcoal": "Edible Charcoal",
+  "item.originsunedibles.edible_coal": "Edible Coal",
+  "item.originsunedibles.edible_diamond": "Edible Diamond",
+  "item.originsunedibles.edible_emerald": "Edible Emerald",
+  "item.originsunedibles.edible_lapis_lazuli": "Edible Lapis Lazuli",
+  "item.originsunedibles.edible_leather": "Edible Leather",
+  "item.originsunedibles.edible_raw_copper": "Edible Raw Copper",
+  "item.originsunedibles.edible_raw_gold": "Edible Raw Gold",
+  "item.originsunedibles.edible_raw_iron": "Edible Raw Iron",
+  "item.originsunedibles.edible_redstone": "Edible Redstone"
 }
