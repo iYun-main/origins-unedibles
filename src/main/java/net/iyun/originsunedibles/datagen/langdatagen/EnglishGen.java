@@ -21,5 +21,6 @@ public class EnglishGen extends FabricLanguageProvider {
         translationBuilder.add(OriginItems.EDIBLE_DIAMOND,"Edible Diamond");
         translationBuilder.add(OriginItems.EDIBLE_EMERALD,"Edible Emerald");
         translationBuilder.add(OriginItems.EDIBLE_LEATHER,"Edible Leather");
+        translationBuilder.add(OriginItems.EDIBLE_BONE,"Edible Bone");
     }
 }
