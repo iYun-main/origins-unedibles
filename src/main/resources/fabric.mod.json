@@ -8,8 +8,8 @@
 		"iYun_"
 	],
 	"contact": {
-		"homepage": "",
-		"sources": ""
+		"homepage": "https://modrinth.com/mod/origins-unedibles",
+		"sources": "https://github.com/iYun-main/origins-unedibles"
 	},
 	"license": "ARR",
 	"icon": "assets/originsunedibles/icon.png",

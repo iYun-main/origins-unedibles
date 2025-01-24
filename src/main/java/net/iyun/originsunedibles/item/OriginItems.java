@@ -39,6 +39,16 @@ public class OriginItems {
     public static final Item EDIBLE_STRING = registerItem("edible_string", new Item(new FabricItemSettings().food(FoodControl.STRING)));
     public static final Item EDIBLE_WHEAT = registerItem("edible_wheat", new Item(new FabricItemSettings().food(FoodControl.WHEAT)));
     public static final Item EDIBLE_WHEAT_SEEDS = registerItem("edible_wheat_seeds", new Item(new FabricItemSettings().food(FoodControl.WHEATSEEDS)));
+    public static final Item EDIBLE_CLAY_BALL= registerItem("edible_clay_ball", new Item(new FabricItemSettings().food(FoodControl.CLAYBALL)));
+    public static final Item EDIBLE_GLOW_INK_SAC = registerItem("edible_glow_ink_sac", new Item(new FabricItemSettings().food(FoodControl.GSACKINK)));
+    public static final Item EDIBLE_INK_SAC = registerItem("edible_ink_sac", new Item(new FabricItemSettings().food(FoodControl.SACKINK)));
+    public static final Item EDIBLE_HONEYCOMB = registerItem("edible_honeycomb", new Item(new FabricItemSettings().food(FoodControl.HONEYCOMB)));
+    public static final Item EDIBLE_PRISMARINE_CRYSTALS = registerItem("edible_prismarine_crystals", new Item(new FabricItemSettings().food(FoodControl.PRISMACRYSTAL)));
+    public static final Item EDIBLE_PRISMARINE_SHARD = registerItem("edible_prismarine_shard", new Item(new FabricItemSettings().food(FoodControl.PRISMASHARD)));
+    public static final Item EDIBLE_RABBIT_FOOT = registerItem("edible_rabbit_foot", new Item(new FabricItemSettings().food(FoodControl.RABBITFOOT)));
+    public static final Item EDIBLE_RABBIT_HIDE = registerItem("edible_rabbit_hide", new Item(new FabricItemSettings().food(FoodControl.RABBITHIDE)));
+    public static final Item EDIBLE_SCUTE = registerItem("edible_scute", new Item(new FabricItemSettings().food(FoodControl.SCUTE)));
+    public static final Item EDIBLE_SLIME_BALL = registerItem("edible_slime_ball", new Item(new FabricItemSettings().food(FoodControl.SLIMEBALL)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(OriginsUnedibles.MOD_ID, name), item);

@@ -43,6 +43,17 @@ public class OriginItemGroup {
                 entries.add(OriginItems.EDIBLE_STRING);
                 entries.add(OriginItems.EDIBLE_WHEAT);
                 entries.add(OriginItems.EDIBLE_WHEAT_SEEDS);
+                entries.add(OriginItems.EDIBLE_LEATHER);
+                entries.add(OriginItems.EDIBLE_CLAY_BALL);
+                entries.add(OriginItems.EDIBLE_GLOW_INK_SAC);
+                entries.add(OriginItems.EDIBLE_INK_SAC);
+                entries.add(OriginItems.EDIBLE_HONEYCOMB);
+                entries.add(OriginItems.EDIBLE_PRISMARINE_CRYSTALS);
+                entries.add(OriginItems.EDIBLE_PRISMARINE_SHARD);
+                entries.add(OriginItems.EDIBLE_RABBIT_FOOT);
+                entries.add(OriginItems.EDIBLE_RABBIT_HIDE);
+                entries.add(OriginItems.EDIBLE_SCUTE);
+                entries.add(OriginItems.EDIBLE_SLIME_BALL);
             }).build());
 
     public static void registerItemGroups() {

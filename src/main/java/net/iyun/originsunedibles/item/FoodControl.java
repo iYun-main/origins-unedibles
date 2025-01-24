@@ -33,5 +33,15 @@ public class FoodControl {
     public static final FoodComponent STRING = new FoodComponent.Builder().hunger(1).saturationModifier(.5f).snack().build();
     public static final FoodComponent WHEAT = new FoodComponent.Builder().hunger(2).saturationModifier(.5f).build();
     public static final FoodComponent WHEATSEEDS = new FoodComponent.Builder().hunger(2).saturationModifier(.5f).snack().build();
+    public static final FoodComponent CLAYBALL = new FoodComponent.Builder().hunger(4).saturationModifier(.5f).snack().build();
+    public static final FoodComponent GSACKINK = new FoodComponent.Builder().hunger(6).saturationModifier(.5f).snack().build();
+    public static final FoodComponent SACKINK = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).snack().build();
+    public static final FoodComponent PRISMASHARD = new FoodComponent.Builder().hunger(4).saturationModifier(.5f).snack().build();
+    public static final FoodComponent PRISMACRYSTAL = new FoodComponent.Builder().hunger(4).saturationModifier(.5f).snack().build();
+    public static final FoodComponent RABBITFOOT = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).snack().build();
+    public static final FoodComponent RABBITHIDE = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).snack().build();
+    public static final FoodComponent SCUTE = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).snack().build();
+    public static final FoodComponent SLIMEBALL = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).snack().build();
+    public static final FoodComponent HONEYCOMB = new FoodComponent.Builder().hunger(6).saturationModifier(.5f).snack().build();
 
 }
