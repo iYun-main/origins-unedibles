@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "originsunedibles:item/edible_ender_eye"
+  }
+}

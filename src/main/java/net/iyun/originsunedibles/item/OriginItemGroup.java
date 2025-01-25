@@ -54,6 +54,34 @@ public class OriginItemGroup {
                 entries.add(OriginItems.EDIBLE_RABBIT_HIDE);
                 entries.add(OriginItems.EDIBLE_SCUTE);
                 entries.add(OriginItems.EDIBLE_SLIME_BALL);
+                entries.add(OriginItems.EDIBLE_BLAZE_ROD);
+                entries.add(OriginItems.EDIBLE_ENDER_EYE);
+                entries.add(OriginItems.EDIBLE_ENDER_PEARL);
+                entries.add(OriginItems.EDIBLE_FIRE_CHARGE);
+                entries.add(OriginItems.EDIBLE_HEART_SEA);
+                entries.add(OriginItems.EDIBLE_POPPED_CHORUS);
+                entries.add(OriginItems.EDIBLE_NAUT_SHELL);
+                entries.add(OriginItems.EDIBLE_NETH_STAR);
+                entries.add(OriginItems.EDIBLE_SHULKER_SHELL);
+                entries.add(OriginItems.EDIBLE_BAMBOO);
+                entries.add(OriginItems.EDIBLE_BEETROOT_SEED);
+                entries.add(OriginItems.EDIBLE_BOOK);
+                entries.add(OriginItems.EDIBLE_BRICK);
+                entries.add(OriginItems.EDIBLE_ECHO);
+                entries.add(OriginItems.EDIBLE_GHAST_TEAR);
+                entries.add(OriginItems.EDIBLE_GLASS_BOTTLE);
+                entries.add(OriginItems.EDIBLE_GLOW_DUST);
+                entries.add(OriginItems.EDIBLE_KELP);
+                entries.add(OriginItems.EDIBLE_MAGMA_CREAM);
+                entries.add(OriginItems.EDIBLE_MELON_SEED);
+                entries.add(OriginItems.EDIBLE_NETHER_BRICK);
+                entries.add(OriginItems.EDIBLE_NETHER_WART);
+                entries.add(OriginItems.EDIBLE_PAPER);
+                entries.add(OriginItems.EDIBLE_MEMBRANE);
+                entries.add(OriginItems.EDIBLE_PITHCHER);
+                entries.add(OriginItems.EDIBLE_PUMP_SEEDS);
+                entries.add(OriginItems.EDIBLE_SUGAR_CANE);
+                entries.add(OriginItems.EDIBLE_TURT_EGG);
             }).build());
 
     public static void registerItemGroups() {
