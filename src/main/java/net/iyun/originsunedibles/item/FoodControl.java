@@ -71,5 +71,13 @@ public class FoodControl {
     public static final FoodComponent PUMPS = new FoodComponent.Builder().hunger(3).snack().saturationModifier(.5f).build();
     public static final FoodComponent CANE = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).build();
     public static final FoodComponent TURTEGG = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).build();
+    public static final FoodComponent GLOBALSAPS = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).build();
+    public static final FoodComponent GLOBALFLOWERS = new FoodComponent.Builder().hunger(4).saturationModifier(.5f).build();
+    public static final FoodComponent GLOBALVINES = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).build();
+    public static final FoodComponent COBWEB = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).build();
+    public static final FoodComponent SEAGRASS = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).build();
+    public static final FoodComponent GLOBALROOTS = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).build();
+    public static final FoodComponent GLOBALSHROOMS = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).build();
+    public static final FoodComponent GLOBALRAREFLOWER = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).build();
 
 }

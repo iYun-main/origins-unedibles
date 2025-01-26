@@ -84,6 +84,42 @@ public class ModelProvider extends FabricModelProvider {
         itemModelGenerator.register(OriginItems.EDIBLE_PUMP_SEEDS, Models.GENERATED);
         itemModelGenerator.register(OriginItems.EDIBLE_SUGAR_CANE, Models.GENERATED);
         itemModelGenerator.register(OriginItems.EDIBLE_TURT_EGG, Models.GENERATED);
+
+        itemModelGenerator.register(OriginItems.EDIBLE_ACA_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_BIRCH_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_CHERR_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_ALLU, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_AZU, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_ORCH, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_BROWN_MUSH, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_COBWEB, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_CORNF, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_CRIM_FUNG, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_CRIM_ROOT, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_DAND, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_DARK_OAK_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_HANGING_ROOT, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_JUNGLE_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_LILY_VAL, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_MANGROVE_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_OAK_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_ORANGE_TU, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_OXEYE, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_PINK_TU, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_POPPY, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_RED_SHROOM, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_RED_TU, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_SPRUCE_SAP, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_SUNFL, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_TORCHFL, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_TWIST_VINE, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_WARP_FUNG, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_WARP_ROOT, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_WEEP_VINE, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_WHITE_TU, Models.GENERATED);
+        itemModelGenerator.register(OriginItems.EDIBLE_WITHER, Models.GENERATED);
+
+
         itemModelGenerator.register(OriginItems.EDIBLE_BONE, Models.HANDHELD);
         itemModelGenerator.register(OriginItems.EDIBLE_STICK, Models.HANDHELD);
         itemModelGenerator.register(OriginItems.EDIBLE_BLAZE_ROD, Models.HANDHELD);

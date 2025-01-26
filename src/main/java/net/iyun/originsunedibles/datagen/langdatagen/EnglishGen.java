@@ -79,5 +79,39 @@ public class EnglishGen extends FabricLanguageProvider {
         translationBuilder.add(OriginItems.EDIBLE_PUMP_SEEDS,"Edible Pumpkin Seeds");
         translationBuilder.add(OriginItems.EDIBLE_SUGAR_CANE,"Edible Sugar Cane");
         translationBuilder.add(OriginItems.EDIBLE_TURT_EGG,"Edible Turtle Egg");
+
+        translationBuilder.add(OriginItems.EDIBLE_ACA_SAP,"Edible Acacia Sapling");
+        translationBuilder.add(OriginItems.EDIBLE_BIRCH_SAP,"Edible Birch Sapling");
+        translationBuilder.add(OriginItems.EDIBLE_CHERR_SAP,"Edible Cherry Sapling");
+        translationBuilder.add(OriginItems.EDIBLE_ALLU,"Edible Allium");
+        translationBuilder.add(OriginItems.EDIBLE_AZU,"Edible Azure Bluet");
+        translationBuilder.add(OriginItems.EDIBLE_ORCH,"Edible Orchid");
+        translationBuilder.add(OriginItems.EDIBLE_BROWN_MUSH,"Edible Brown Mushroom");
+        translationBuilder.add(OriginItems.EDIBLE_COBWEB,"Edible Cobweb");
+        translationBuilder.add(OriginItems.EDIBLE_CORNF,"Edible Cornflower");
+        translationBuilder.add(OriginItems.EDIBLE_CRIM_ROOT,"Edible Crimson Roots");
+        translationBuilder.add(OriginItems.EDIBLE_CRIM_FUNG,"Edible Crimson Fungus");
+        translationBuilder.add(OriginItems.EDIBLE_DAND,"Edible Dandelion");
+        translationBuilder.add(OriginItems.EDIBLE_DARK_OAK_SAP,"Edible Dark Oak Sapling");
+        translationBuilder.add(OriginItems.EDIBLE_HANGING_ROOT,"Edible Hanging Roots");
+        translationBuilder.add(OriginItems.EDIBLE_JUNGLE_SAP,"Edible Jungle Sapling");
+        translationBuilder.add(OriginItems.EDIBLE_LILY_VAL,"Edible Lily of the Valley");
+        translationBuilder.add(OriginItems.EDIBLE_MANGROVE_SAP,"Edible Mangrove Propagule");
+        translationBuilder.add(OriginItems.EDIBLE_OAK_SAP,"Edible Oak Sapling");
+        translationBuilder.add(OriginItems.EDIBLE_ORANGE_TU,"Edible Orange Tulip");
+        translationBuilder.add(OriginItems.EDIBLE_SPRUCE_SAP,"Edible Spruce Sapling");
+        translationBuilder.add(OriginItems.EDIBLE_SUNFL,"Edible Sunflower");
+        translationBuilder.add(OriginItems.EDIBLE_TORCHFL,"Edible Torchflower");
+        translationBuilder.add(OriginItems.EDIBLE_TWIST_VINE,"Edible Twisting Vines");
+        translationBuilder.add(OriginItems.EDIBLE_WARP_FUNG,"Edible Warped Fungus");
+        translationBuilder.add(OriginItems.EDIBLE_WARP_ROOT,"Edible Warped Roots");
+        translationBuilder.add(OriginItems.EDIBLE_WEEP_VINE,"Edible Weeping Vines");
+        translationBuilder.add(OriginItems.EDIBLE_WHITE_TU,"Edible White Tulip");
+        translationBuilder.add(OriginItems.EDIBLE_WITHER,"Edible Wither Rose");
+        translationBuilder.add(OriginItems.EDIBLE_OXEYE,"Edible Oxeye Daisy");
+        translationBuilder.add(OriginItems.EDIBLE_PINK_TU,"Edible Pink Tulip");
+        translationBuilder.add(OriginItems.EDIBLE_POPPY,"Edible Poppy");
+        translationBuilder.add(OriginItems.EDIBLE_RED_SHROOM,"Edible Red Mushroom");
+        translationBuilder.add(OriginItems.EDIBLE_RED_TU,"Edible Red Tulip");
     }
 }

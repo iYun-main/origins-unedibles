@@ -79,6 +79,40 @@ public class OriginItems {
     public static final Item EDIBLE_SUGAR_CANE = registerItem("edible_sugar_cane", new Item(new FabricItemSettings().food(FoodControl.CANE)));
     public static final Item EDIBLE_TURT_EGG = registerItem("edible_turtle_egg", new Item(new FabricItemSettings().food(FoodControl.TURTEGG)));
 
+    public static final Item EDIBLE_ACA_SAP = registerItem("edible_acacia_sapling", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_BIRCH_SAP = registerItem("edible_birch_sapling", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_CHERR_SAP = registerItem("edible_cherry_sapling", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_ALLU = registerItem("edible_allium", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_AZU = registerItem("edible_azure_bluet", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_ORCH = registerItem("edible_blue_orchid", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_BROWN_MUSH = registerItem("edible_brown_mushroom", new Item(new FabricItemSettings().food(FoodControl.GLOBALSHROOMS)));
+    public static final Item EDIBLE_COBWEB = registerItem("edible_cobweb", new Item(new FabricItemSettings().food(FoodControl.COBWEB)));
+    public static final Item EDIBLE_CORNF = registerItem("edible_cornflower", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_CRIM_FUNG = registerItem("edible_crimson_fungus", new Item(new FabricItemSettings().food(FoodControl.GLOBALSHROOMS)));
+    public static final Item EDIBLE_CRIM_ROOT = registerItem("edible_crimson_roots", new Item(new FabricItemSettings().food(FoodControl.GLOBALROOTS)));
+    public static final Item EDIBLE_DAND = registerItem("edible_dandelion", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_DARK_OAK_SAP = registerItem("edible_dark_oak_sapling", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_HANGING_ROOT = registerItem("edible_hanging_roots", new Item(new FabricItemSettings().food(FoodControl.GLOBALROOTS)));
+    public static final Item EDIBLE_JUNGLE_SAP = registerItem("edible_jungle_sapling", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_LILY_VAL = registerItem("edible_lily_of_the_valley", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_MANGROVE_SAP = registerItem("edible_mangrove_propagule", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_OAK_SAP = registerItem("edible_oak_sapling", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_ORANGE_TU = registerItem("edible_orange_tulip", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_OXEYE = registerItem("edible_oxeye_daisy", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_PINK_TU = registerItem("edible_pink_tulip", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_POPPY = registerItem("edible_poppy", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_RED_SHROOM = registerItem("edible_red_mushroom", new Item(new FabricItemSettings().food(FoodControl.GLOBALSHROOMS)));
+    public static final Item EDIBLE_RED_TU = registerItem("edible_red_tulip", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_SPRUCE_SAP = registerItem("edible_spruce_sapling", new Item(new FabricItemSettings().food(FoodControl.GLOBALSAPS)));
+    public static final Item EDIBLE_SUNFL = registerItem("edible_sunflower", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_TORCHFL = registerItem("edible_torchflower", new Item(new FabricItemSettings().food(FoodControl.GLOBALRAREFLOWER)));
+    public static final Item EDIBLE_TWIST_VINE = registerItem("edible_twisting_vines", new Item(new FabricItemSettings().food(FoodControl.GLOBALVINES)));
+    public static final Item EDIBLE_WARP_FUNG = registerItem("edible_warped_fungus", new Item(new FabricItemSettings().food(FoodControl.GLOBALSHROOMS)));
+    public static final Item EDIBLE_WARP_ROOT = registerItem("edible_warped_roots", new Item(new FabricItemSettings().food(FoodControl.GLOBALROOTS)));
+    public static final Item EDIBLE_WEEP_VINE = registerItem("edible_weeping_vines", new Item(new FabricItemSettings().food(FoodControl.GLOBALVINES)));
+    public static final Item EDIBLE_WHITE_TU = registerItem("edible_white_tulip", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+    public static final Item EDIBLE_WITHER = registerItem("edible_wither_rose", new Item(new FabricItemSettings().food(FoodControl.GLOBALFLOWERS)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(OriginsUnedibles.MOD_ID, name), item);
     }
