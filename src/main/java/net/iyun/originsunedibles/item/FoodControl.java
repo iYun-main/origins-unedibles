@@ -79,5 +79,6 @@ public class FoodControl {
     public static final FoodComponent GLOBALROOTS = new FoodComponent.Builder().hunger(3).saturationModifier(.5f).build();
     public static final FoodComponent GLOBALSHROOMS = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).build();
     public static final FoodComponent GLOBALRAREFLOWER = new FoodComponent.Builder().hunger(5).saturationModifier(.5f).build();
+    public static final FoodComponent NOFOODCONTROL = new FoodComponent.Builder().build();
 
 }
